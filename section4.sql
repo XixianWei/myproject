@@ -27,7 +27,7 @@ CREATE TABLE showings (
 SELECT movie_info.movie_name, showings.start_time
 FROM movie_info
 JOIN showings ON movie_info.movie_ID = showings.movie_ID
-WHERE showings.start_time > '12:00:00' AND showings.available_seats > 0
+WHERE showings.start_time > '11:59:59' AND showings.available_seats > 0
 ORDER BY showings.start_time;
 
 -- 4.3 Return the name of the movie with the most showings.
