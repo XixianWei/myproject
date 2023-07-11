@@ -38,3 +38,4 @@ What is the git command that updates the remote repository with local repository
 What does the git commit command need to work?
 
 The `git commit` command needs a message describing the changes being committed. It is used with `-m` option followed by the message in quotes. If you have changes that are not yet staged, you will need to stage them with `git add` before they can be committed.
+
