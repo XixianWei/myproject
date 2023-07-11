@@ -33,16 +33,16 @@ The function can_pay(price, cash_given) expects two arguments that are numeric. 
 For example, calling can_pay('a hundred', 50) would throw a TypeError as ''a hundred ' is a string.
 
 To handle this, we could implement exception handling with a try-except block to catch TypeErrors. The code would be:
-
-def can_pay(price, cash_given):
-    try:
-        if cash_given >= price:
-            return True
-        else:
-            return False
-    except TypeError:
+```python
+def can_pay(price, cash_given): 
+    try: 
+        if cash_given >= price: 
+            return True 
+        else: 
+            return False 
+    except TypeError: 
         return "Both price and cash_given need to be numbers."
-
+```
 
 
 **1.8 What is git branching? Explain how it is used in Git.**
