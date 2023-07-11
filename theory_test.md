@@ -23,14 +23,16 @@ In a database, NULL represents the absence of a value or the fact that a value i
 2. Log Debugging: To add print statements to track values and flow. Use for overall behaviour or in complex systems where stops aren't practical.
 
 **1.7 Looking at the following code, describe a case where this function would throw an error when called. Describe this case and talk about what exception handling you’ll need.** 
-**def can_pay(price, cash_given):**
-    **if cash_given >= price:**
-        **return True**
-   **else:**
- **return False**
+```python
+def can_pay(price, cash_given):
+    if cash_given >= price:
+        return True
+   else:
+ return False
+```
 
-The function can_pay(price, cash_given) expects two arguments that are numeric. It will throw a TypeError if any non-numeric argument is passed. 
-For example, calling can_pay('a hundred', 50) would throw a TypeError as ''a hundred ' is a string.
+The function **can_pay(price, cash_given)** expects two arguments that are numeric. It will throw a TypeError if any non-numeric argument is passed. 
+For example, calling **can_pay('a hundred', 50)** would throw a TypeError as **'a hundred '** is a string.
 
 To handle this, we could implement exception handling with a try-except block to catch TypeErrors. The code would be:
 ```python
