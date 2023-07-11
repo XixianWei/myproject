@@ -58,7 +58,7 @@ After the changes on a new branch have been tested and are ready to be integrate
 **2.	What are your main considerations and problems?**
 **3.	What components or tools would you potentially use?**
 
-1. The list of key requirements
+<u>1. The list of key requirements<u>
 - User Account: Customers can create accounts, to save their preferences, and to view their order history.
 - Ordering: Customers can view the menu, select items, and place orders.
 - Menu Management: Managers can add, update, or remove items from the menu.
@@ -66,13 +66,13 @@ After the changes on a new branch have been tested and are ready to be integrate
 - Food Allergy: Ability for customers to add special requests or customize their order, such as adding allergy or preparation instructions.
 - Notifications: The system should be able to push notifications to give real-time updates for customers regarding their order status.
 
-2. Main Considerations and Problems:
+<u>2. Main Considerations and Problems:<u>
 - The number of potential users: The system should be able to handle a growing number of orders and users.
 - Feature design: The interface should be user-friendly for both customers and staff.
 - Data security: Users data and payment information need to be protected. 
 - Ease of maintenance: The system should be simple to update and debug.
 
-3. Components and Tools
+<u>3. Components and Tools<u>
 - Frontend development: A web-based user interface for customers to place orders, and a separate interface for staff. These could be built using JavaScript, HTML and CSS.
 - Backend development: A server-side application to process orders, handle payments, and manage users and menu items. This could be built with Python, and a framework like Flask.
 - Database: A database to store order information, user profiles, and menu items. SQL databases like MySQL could be used.
