@@ -1,32 +1,33 @@
 # CFG Foundation Assessment 2 
 ## Section 1: Theory Questions [31 marks] 
-** 1.1 What does SDLC stand for? 
+**1.1 What does SDLC stand for?**  
 Software Development Life Cycle
 
-** 1.2 What exception is thrown when you divide a number by 0? 
+
+**1.2 What exception is thrown when you divide a number by 0?**
 In python, the program will throw a ZeroDivisionError. In JavaScript, Returns Infinity, does not actually throw an exception.
 
-** 1.3 What is the git command that moves code from the local repository to the remote repository? 
+**1.3 What is the git command that moves code from the local repository to the remote repository?** 
 git push 
 
-** 1.4 What does NULL represent in a database? 
+**1.4 What does NULL represent in a database?** 
 In a database, NULL represents the absence of a value or the fact that a value is unknown. It's not equivalent to zero or an empty string.
 
 
-** 1.5 Name 2 responsibilities of the Scrum Master 
+**1.5 Name 2 responsibilities of the Scrum Master**
 1. Facilitating Scrum ceremonies: The Scrum Master is responsible for orchestrating Scrum meetings, ensuring they are productive and efficient. 
 2. Removing obstacles: The Scrum Master finds and removes impediments that are blocking the team's progress to help the team work smoothly and stay focused on their tasks.
 
-** 1.6 Name 2 debugging methods, and when you would use them. 
+**1.6 Name 2 debugging methods, and when you would use them.** 
 1. Breakpoint Debugging: To set stops in your code to inspect it while running. Use when you know where the issue might be.
 2. Log Debugging: To add print statements to track values and flow. Use for overall behaviour or in complex systems where stops aren't practical.
 
-** 1.7 Looking at the following code, describe a case where this function ** would throw an error when called. Describe this case and talk about what ** exception handling you’ll need. 
-** def can_pay(price, cash_given):
-**    if cash_given >= price:
-**        return True
-**    else:
-** return False 
+**1.7 Looking at the following code, describe a case where this function would throw an error when called. Describe this case and talk about what exception handling you’ll need.** 
+**def can_pay(price, cash_given):**
+    **if cash_given >= price:**
+        **return True**
+   **else:**
+ **return False**
 
 The function can_pay(price, cash_given) expects two arguments that are numeric. It will throw a TypeError if any non-numeric argument is passed. 
 For example, calling can_pay('a hundred', 50) would throw a TypeError as ''a hundred ' is a string.
@@ -44,16 +45,16 @@ def can_pay(price, cash_given):
 
 
 
-** 1.8 What is git branching? Explain how it is used in Git. 
+**1.8 What is git branching? Explain how it is used in Git.**
 Git branching is a feature that allows developers to create independent lines of development within a single project. It's used to isolate work in progress from the stable codebase. Developers create branches to add new features, fix bugs, or experiment, without affecting the main branch.
 To use it, you can create a new branch using the git branch command followed by the name of the new branch. For example, git branch developer.
 After the changes on a new branch have been tested and are ready to be integrated, they are usually merged back into the main branch through a process called a pull request or directly using the git merge command.
 
-** 1.9 Design a restaurant ordering system. 
-** You do not need to write code, but describe a high-level approach: 
-** 1.	Draw a list of key requirements 
-** 2.	What are your main considerations and problems? 
-** 3.	What components or tools would you potentially use? 
+**1.9 Design a restaurant ordering system.** 
+**You do not need to write code, but describe a high-level approach:** 
+**1.	Draw a list of key requirements**
+**2.	What are your main considerations and problems?**
+**3.	What components or tools would you potentially use?**
 
 1. The list of key requirements
 - User Account: Customers can create accounts, to save their preferences, and to view their order history.
